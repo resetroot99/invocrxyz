@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -6,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'InvOCR - AI Invoice Processing',
-  description: 'Upload, analyze, and manage invoices with AI assistance',
+  title: 'InvOCR XYZ',
+  description: 'Invoice OCR and Analysis Application',
 };
 
 export default function RootLayout({
